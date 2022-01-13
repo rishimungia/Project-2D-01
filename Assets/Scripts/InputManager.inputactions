@@ -1,0 +1,55 @@
+{
+    "name": "InputManager",
+    "maps": [
+        {
+            "name": "PlayerControls",
+            "id": "0200b46b-a490-4515-9518-453172be7c29",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Value",
+                    "id": "1ad0247e-6fc8-454a-9de0-926acbfaf7c5",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Horizontal Movement",
+                    "id": "1f0254b6-f372-4178-82fa-4989392aeb52",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "84c2cd13-adcc-489f-9c1e-0a33a33dea73",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "38100424-c1ad-48ab-958d-cd8a6361e481",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
